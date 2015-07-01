@@ -1,0 +1,138 @@
+/*green: color: 197739*/
+/*yellow: color: #EBEC2B;*/
+/*pink: color: #904180;*/
+
+body{
+    background-color: black;
+    color: silver;
+    /*text-align: center;*/
+}
+
+footer{
+    padding: 10px 20px;
+    margin-top: 100px;
+    margin-right: -15px;
+    text-align: left;
+    background-color: #777;
+    color: black;
+}
+
+h2{
+    color:  #904180;
+}
+
+.content{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.navbar-black{
+    background-color: black;
+}
+
+.nav{
+    color: silver;
+}
+
+.nav li{
+    padding:15px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.nav-link{
+    color: silver !important;
+    padding: 0 !important; 
+}
+
+.nudge-down-20px{
+    margin-top: 20px;
+}
+
+.nudge-down-200px{
+    margin-top: 200px;
+}
+
+.nudge-down-100px{
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.section{
+    padding: 50px 0 100px 0;
+
+}
+
+.silver{
+    color: #777;
+}
+
+.title-font{
+    /*font-family: 'Bad Script', cursive;*/
+    font-family: 'Montez', cursive;
+    color: #777;
+}
+
+.title{
+    font-size: 60px;
+    margin-top: -10px;
+}
+
+#about-us{
+    box-shadow: 0px 0px 25px 25px #4a4a4a;
+    background-color: #4a4a4a;
+    color: black;
+}
+
+#calendar{
+    box-shadow: 0px 0px 25px 25px #2C2B2B;
+    background-color: #2C2B2B;
+    color: #904180;
+}
+
+#charities{
+    box-shadow: 0px 0px 25px 25px #1F1F1F;
+    background-color: #1F1F1F;
+}
+
+#outside-circle{
+    border: 10px solid #904180; 
+    border-radius: 500px;
+    height: 600px;
+    width: 600px;
+    padding: 5px;
+    margin:auto;
+}
+
+#circle{
+    margin:auto;
+    border: 5px solid #5A2950; 
+    border-radius: 300px;
+    height: 570px;
+    width: 570px;
+    padding-top: 50px;
+}
+
+#construction{
+    font-size: 25px;
+}
+
+#contact{
+    padding-top: 100px;
+}
+
+#logo-area{
+    margin: 100px 0 200px;
+    text-align: center;
+}
+
+#venues{
+    box-shadow: 0px 0px 25px 25px #323232;
+    background-color: #323232;
+}
+
+
+
+

@@ -1,39 +1,103 @@
 <html>
 <head>
     <title>Grateful Hearts</title>
-    <style type="text/css">
-
-        body{
-            background-color: black;
-            color: white;
-            text-align: center;
-        }
-
-        .nudge-down-20px{
-            margin-top: 20px;
-        }
-
-        .nudge-down-100px{
-            margin-top: 100px;
-        }
-
-        #title{
-            font-size: 40px;
-            color: silver;
-        }
-
-        #construction{
-            font-size: 25px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/site.css">
+    <!-- <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'> -->
+    <link href='http://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <div class="nudge-down-20px">
-        <img src="http://orcoastweddings.com/wp-content/uploads/2013/12/two-hearts-SILVER.png">
-        <h1 id="title">Grateful Hearts Jewelry</h1>
-        <h3 id="constuction">Site Under Construction</h3>
-        <p class="nudge-down-100px">Coming Soon...</p>
+    <body>
+    <nav class="navbar navbar-black navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle border-white" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar background-white"></span>
+                <span class="icon-bar background-white"></span>
+                <span class="icon-bar background-white"></span>
+            </button>
+            <a href="/" class="navbar-brand title-font">
+                <span>grateful hearts</span>
+            </a>
+        </div>
+        <div class="navbar-collapse collapse no-padding">
+                <ul class="nav navbar-nav">
+                    <li><a href="#calendar" class="nav-link">Events</a></li>
+                    <li><img src="./img/diamond.png" width=20px height=20px></li>
+                    <li><a href="#about-us" class="nav-link">About Us</a></li>
+                    <li><img src="./img/diamond.png" width=20px height=20px></li>
+                    <li><a href="#charities" class="nav-link">Charities</a></li>
+                    <li><img src="./img/diamond.png" width=20px height=20px></li>
+                    <li><a href="#venues" class="nav-link">Venues</a></li>
+                    <li><img src="./img/diamond.png" width=20px height=20px></li>
+                    <li><a href="#contact" class="nav-link">Contact us</a></li>
+                </ul>
+        </div>
+    </nav>
+    <div class="row" id="logo-area">
+        <div class="col-sm-12 text-center">
+            <div id="outside-circle">
+                <div id="circle">
+                    <img src="./img/hearts_isolated.png" height=300>
+                    <h1 class="title-font title">grateful hearts jewelry</h1>
+                    <h3 class="title-font">Sterling Silver</h3>
+                </div> 
+            </div>                   
+        </div>
     </div>
-    
+    <div id="calendar" class="row section">
+        <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
+            <h2>Up Coming Events</h2>
+            <div class="text-center"><iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=gratefulheartsjewelry%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FNew_York" style=" border-width:0 " width="600" height="500" frameborder="0" scrolling="no"></iframe></div>
+        </div>
+    </div>
+    <div id="about-us" class="row section">
+        <div class="col-sm-6 col-sm-offset-3 text-left">
+            <div class="text-center"><img src="./img/person_icon.png" width=100 height=100></div>
+            <h2>About Us</h2>
+            <div class="content">
+                Grateful Heart's primary mission is to assist hospitals and corporations to raise funds for charities and employee organizations. We sell sterling silver jewelry at hospital or business locations and pay a percentage of the sales for the organization's designated purpose.  Staff and visitors alike enjoy the benefit of shopping without leaving the work place.
+                <br><br>
+                Our jewelry selection includes earrings, pendants, anklets, bracelets, rings, toe rings, chains and necklaces, all set in sterling silver.  Our pieces include semi-precious stones as well as marcasite, cubic zirconium and Italian glass.  We carry men's items too and a smaller selection of stainless steel and tungsten. Our prices are 50% below retail and range between $3 and $130 with the majority of items under $35, making it affordable to all.   We provide a knowledgeable sales staff, an elegant display and we accept all forms of payment including payroll deduction, if available.  The quality and selection of our sterling silver jewelry and our 90 day guarantee always generate high sales, ensuring the organizations with which we work a substantial financial benefit.
+
+            </div>
+        </div>
+    </div>
+    <div id="venues" class="row section">
+        <div class="col-sm-6 col-sm-offset-3">
+            <div class="text-center"><img src="./img/location_icon.png" width=100 height=100></div>
+            <h2>Venues We Have Worked With</h2>
+            <div class="content">
+                We have worked with a number of venues in the metro detoit area, including the American Nurse Assoc, Beaumont Hospital, Blodgett Hospital, Butterworth Hospital, Crystal Gardens - Oakwood, Citi Bank, Compuware, Detroit News, Diamler, Dominos, Kelly HQ and Marrito MOASH.
+            </div>
+        </div>
+    </div>
+    <div id="charities" class="row section">
+        <div class="col-sm-6 col-sm-offset-3">
+            <div class="text-center"><img src="./img/charity_icon.png" width=100 height=100></div>
+            <h2>Charities We Support</h2>
+            <div class="content">
+                While we have worked with a wide variety of charities, these are a few of the places we are proud to support: Children's Miricale Network, Hope Clinic, March of Dimes, Freedom House, Americal Heart Assoc, and the M.S. Society. 
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="row section">
+        <div class="col-md-3 col-md-offset-3 col-sm-12 text-center">
+            <div class=""><img src="./img/mail_icon.png" width=300></div>
+        </div>
+        <div class="col-md-3 col-md-offset-0 col-sm-offset-4">
+            <h2>Contact Us</h2>
+            <div class="content">
+                Lynn Dulmage</br>
+                7650 Cooley Lake Rd. #1021 <br>
+                Union Lake, MI 48387 <br>   
+                248-496-8368</br>
+                <a href="mailto:gratefulheartsjewelry.gmail.com" class="silver">gratefulheartsjewelry.gmail.com</a><br><br>
+                90 days on returns
+            </div>
+        </div>
+    </div>
 </body>
+<footer>
+    &copy Grateful Hearts Jewelry 2015 
+</footer>
 </html> 
