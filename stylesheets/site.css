@@ -2,23 +2,15 @@
 /*yellow: color: #EBEC2B;*/
 /*pink: color: #904180;*/
 
-body{
-    background-color: black;
-    color: silver;
-    /*text-align: center;*/
-}
 
 footer{
     padding: 10px 20px;
-    margin-top: 100px;
     margin-right: -15px;
     text-align: left;
-    background-color: #777;
-    color: black;
 }
 
 h2{
-    color:  #904180;
+    color:  white;
 }
 
 .content{
@@ -43,8 +35,12 @@ h2{
 }
 
 .nav-link{
-    color: silver !important;
+    color: #5A2950 !important;
     padding: 0 !important; 
+}
+
+.navbar-nav li{
+    padding: 25px 15px 15px;
 }
 
 .nudge-down-20px{
@@ -70,9 +66,13 @@ h2{
 }
 
 .title-font{
-    /*font-family: 'Bad Script', cursive;*/
     font-family: 'Montez', cursive;
     color: #777;
+}
+
+.title-nav{
+    font-size: 39px;
+    padding-top: 20px;
 }
 
 .title{
@@ -81,24 +81,24 @@ h2{
 }
 
 #about-us{
-    box-shadow: 0px 0px 25px 25px #4a4a4a;
-    background-color: #4a4a4a;
-    color: white;
+    box-shadow: 0px 0px 25px 25px #1F916A;
+    background-color: #1F916A;
+    color: #D1D2D4;
 }
 
 #calendar{
-    box-shadow: 0px 0px 25px 25px #2C2B2B;
-    background-color: #2C2B2B;
-    color: #904180;
+    box-shadow: 0px 0px 25px 25px #9B7DA1;
+    background-color: #9B7DA1;
 }
 
 #charities{
     box-shadow: 0px 0px 25px 25px #1F1F1F;
     background-color: #1F1F1F;
+    color: #D1D2D4;
 }
 
 #outside-circle{
-    border: 10px solid #904180; 
+    border: 10px solid #7C4089; 
     border-radius: 500px;
     height: 600px;
     width: 600px;
@@ -121,16 +121,24 @@ h2{
 
 #contact{
     padding-top: 100px;
+    background-color: #777;
+    box-shadow: 0 -25px 25px -5px #777;
+    color: black;
 }
 
 #logo-area{
-    margin: 100px 0 200px;
+    margin: 150px 0 200px;
     text-align: center;
 }
 
 #locations{
-    box-shadow: 0px 0px 25px 25px #323232;
-    background-color: #323232;
+    box-shadow: 0px 0px 25px 25px #7C4089;
+    background-color: #7C4089;
+    color: #D1D2D4;
+}
+
+#no-border{
+    border: none;
 }
 
 
