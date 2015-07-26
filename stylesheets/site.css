@@ -41,6 +41,7 @@ h2{
 
 .navbar-nav li{
     padding: 25px 15px 15px;
+    font-size: 17px;
 }
 
 .nudge-down-20px{
@@ -127,7 +128,7 @@ h2{
 }
 
 #logo-area{
-    margin: 150px 0 200px;
+    margin: 200px 0;
     text-align: center;
 }
 
@@ -140,6 +141,12 @@ h2{
 #no-border{
     border: none;
 }
+
+.fa-heart{
+    color: #FFE1EF;
+    margin-top: 4px;
+}
+
 
 
 
