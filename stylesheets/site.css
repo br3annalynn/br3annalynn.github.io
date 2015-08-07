@@ -20,6 +20,7 @@ h2{
 
 .navbar-black{
     background-color: black;
+    border-bottom: solid 1px #3C3B3B;
 }
 
 .nav{
@@ -30,17 +31,17 @@ h2{
     padding:15px;
 }
 
-.navbar-brand{
+.navbar-brand{  
     font-size: 30px;
 }
 
 .nav-link{
-    color: #5A2950 !important;
+    color: #999999 !important;
     padding: 0 !important; 
 }
 
 .navbar-nav li{
-    padding: 25px 15px 15px;
+    padding: 30px 15px;
     font-size: 17px;
 }
 
@@ -128,8 +129,9 @@ h2{
 }
 
 #logo-area{
-    margin: 200px 0;
+    padding: 200px;
     text-align: center;
+    background-color: black;
 }
 
 #locations{
@@ -142,9 +144,9 @@ h2{
     border: none;
 }
 
-.fa-heart{
-    color: #FFE1EF;
-    margin-top: 4px;
+.fa-circle{
+    color: #672063;
+    margin-top: 2px;
 }
 
 
