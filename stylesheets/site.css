@@ -12,6 +12,10 @@ footer{
 h2{
     color:  white;
 }
+ 
+ .black{
+    color: black;
+ }
 
 .content{
     font-size: 18px;
