@@ -3,54 +3,74 @@
     <title>Grateful Hearts</title>
     <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./font-awesome-4.3.0/css/font-awesome.min.css">
-    
     <link rel="stylesheet" type="text/css" href="./stylesheets/site.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
 </head>
 <body>
-    <div class="container">      
-        <div class="row" id="logo-area">
-            <div class="col-sm-12 text-center">
-                <img src="./img/logo_new.png" width=500 class="nudge-down-50px">
-                <h1 class="nudge-down-100px">Supporting your fundraising goals</h1>
-            </div>
-        </div>
-        <hr>
-
-
-
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-                <div class="cta">
-                    Fall and Spring dates are filling up fast!<br>
-                    Call today to set up your next Grateful Hearts Fundrasing Event. <br>
-                    248.496.8369
+    <div class="header">
+        <div class="navbar navbar-fixed-top">
+            <div>
+                <div class="navbar-header float-left">
+                    <a href="@Url.Action("Index", "Home", new {area = ""}, null)" class="navbar-brand no-hover">
+                        <img class="logo" src="./img/hearts.png" />
+                    </a>
+                </div>
+                <div class="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right landing-page-nav__links">
+                        <li><a href="#aboutus">About Us</a></li>
+                        <li><a href="#locations">Locations</a></li>
+                        <li><a href="#jewelry">Our Jewelry</a></li>
+                        <li><a href="#charities">Charities</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <hr>
-
-
-        <div id="about-us" class="row section">
-            <div class="col-sm-3">
-                <img src="./img/us.png" class="photo">
-            </div>
-            <div class="col-sm-9">
-                <h2>About Us</h2>
+        <div class="text-center">
+            <img src="./img/GH-logo-words.png">
+        </div>
+    </div>
+    <div class="container" id="aboutus">      
+        <div class="row section">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h1 class="text-center">Supporting your fundraising goals</h1>
                 <div class="content">
-                    Grateful Hearts Jewelry is a family-owned sterling silver jewelry company whose unique mission is to work with hospitals, businesses and organizations in order to raise funds for charities and nonprofits. We set up a beautiful display of unique jewelry in hospitals and business locations. Staff and visitors alike enjoy the benefit of shopping without leaving the workplace. We give a percentage of the sales to the business's or organization's charity of choice. 
+                    Grateful Hearts Jewelry is a family-owned sterling silver jewelry company whose unique mission 
+                    is to work with hospitals, businesses and organizations in order to raise funds for charities 
+                    and nonprofits. We set up a beautiful display of unique jewelry in hospitals and business locations. 
+                    Staff and visitors alike enjoy the benefit of shopping without leaving the workplace. We give a 
+                    percentage of the sales to the business's or organization's charity of choice. 
+                </div>
+                <div class="phone-number text-center">248.496.8369</div>
+            </div>
+        </div>
+    </div>
+    <div class="row section-black">
+        <div class="col-sm-12">
+            <div class="container">
+                <div>  
+                    “Lynn has been a vendor at McLaren Flint for nine years. She carries an excellent product 
+                     and nicely displays her merchandise to hospital employees and hospital visitors to view and purchase.”
                 </div>
             </div>
         </div>
-        <hr>
-
-
-        <div id="locations" class="row section">
-            <div class="col-sm-12">
-                <h2>Locations</h2>
+        <div class="col-sm-3 col-sm-offset-7">
+            <div class="signature" id="locations">
+                    - Beverly A. King <br>
+                     &nbsp;&nbsp;Vice-President <br>
+                     &nbsp;&nbsp;McLaren Flint
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row section">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h1>Locations</h1>
                 <div class="content">
                     We have worked with a number of hospitals and corporations, primarily in Michigan, including:
                     <br><br>
-                    <h4>Hospitals<h4/><br>
+                    <h3>Hospitals</h3><br>
                     <div class="row">
                         <div class="col-sm-3 text-center">
                             <img src="./img/botsford.jpg" width="125" class="nudge-down-20px">
@@ -81,7 +101,7 @@
                     </div>
 
                     <br><br>
-                    <h4>Corporations</h4><br>
+                    <h3>Corporations</h3><br>
                     <div class="row">
                         <div class="col-sm-3 text-center">
                             <img src="./img/ford.png" width="100" class="nudge-down-20px">
@@ -99,28 +119,67 @@
                 </div>
             </div>
         </div>
-        <hr>
-
-        <div class="row section" id="jewelry">
-            <div class="col-sm-9">
+    </div>
+    <div class="row section-jewelry" id="jewelry">
+        <div class="col-sm-2 text-center">
+            <img src="./img/frog.png" class="jewelry">
+        </div>
+        <div class="col-sm-2 text-center">
+            <img src="./img/heart.png" class="jewelry">
+        </div>
+        <div class="col-sm-2 text-center">
+            <img src="./img/clover.png" class="jewelry">
+        </div>
+        <div class="col-sm-2 text-center">
+            <img src="./img/boat.png" class="jewelry">
+        </div>
+        <div class="col-sm-2 text-center">
+            <img src="./img/pendant.png" class="jewelry">
+        </div>
+        <div class="col-sm-2 text-center">
+            <img src="./img/turtle.png" class="jewelry">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row section">
+            <div class="col-sm-10 col-sm-offset-1">
                 <div class="content">
-                    <h2>Our Jewelry</h2>
-                    Our jewelry selection includes earrings, pendants, anklets, bracelets, rings, toe rings, chains and necklaces, all set in sterling silver.  Our pieces include semi-precious stones as well as marcasite, cubic zirconium and Italian glass.  We carry men's items too and a smaller selection of stainless steel and tungsten. Our prices are 50% below retail and range between $3 and $130 with the majority of items under $35, making it affordable to all.   We provide a knowledgeable sales staff, an elegant display and we accept all forms of payment including payroll deduction, if available.  The quality and selection of our sterling silver jewelry and our 90 day guarantee always generate high sales, ensuring the organizations with which we work a substantial financial benefit. We welcome the opportunity to partner with you. Please contact us today about scheduling a Grateful Hearts Jewelry Event.
+                    <h1>Our Jewelry</h1>
+                    Our jewelry selection includes earrings, pendants, anklets, bracelets, rings, toe rings, chains and necklaces, 
+                    all set in sterling silver.  Our pieces include semi-precious stones as well as marcasite, cubic zirconium and 
+                    Italian glass.  We carry men's items too and a smaller selection of stainless steel and tungsten. Our prices are 
+                    50% below retail and range between $3 and $130 with the majority of items under $35, making it affordable to all.   
+                    We provide a knowledgeable sales staff, an elegant display and we accept all forms of payment including payroll 
+                    deduction, if available.  The quality and selection of our sterling silver jewelry and our 90 day guarantee 
+                    always generate high sales, ensuring the organizations with which we work a substantial financial benefit. 
+                    We welcome the opportunity to partner with you. Please contact us today about scheduling a Grateful Hearts Jewelry Event.
                 </div>
             </div>
-            <div class="col-sm-3">
-                <img src="./img/jewelry.png" class="photo" id="jewelry-photo">
+        </div>
+    </div>
+    <div class="row section-black">
+        <div class="col-sm-12">
+            <div class="container">
+                “We are thrilled that this generous amount will be donated to Kelly’s 2016 United Way campaign. I appreciate how self-sufficient 
+            you are, making your jewelry sale a very appealing fundraiser.”
             </div>
         </div>
-        <hr>
-
-
-        <div id="charities" class="row section">
-            <div class="col-sm-12">
-                <h2>Charities We Support</h2>
+        <div class="col-sm-3 col-sm-offset-7">
+            <div class="signature" id="charities">
+                    - Barbara Olmstead <br>
+                    &nbsp;&nbsp;Executive Assistant to CIO <br>
+                    &nbsp;&nbsp;Kelly Services
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row section" >
+            <div class="col-sm-10 col-sm-offset-1">
                 <div class="content">
-                    While we have worked with a wide variety of charities and nonprofits, these are a few of the organization we are proud to support: 
-                    <div class="row">
+                    <h1>Charities We Support</h2>
+                    While we have worked with a wide variety of charities and nonprofits, these are a few of the organization we 
+                    are proud to support: 
+                    <div class="row nudge-down-20px">
                         <div class="col-sm-4 text-center">
                             <img src="./img/ms_logo.png" width="100">
                         </div>
@@ -145,20 +204,73 @@
                 </div>
             </div>
         </div>
-        <hr>
-
-
-        <div id="calendar" class="row section">
+    </div>
+   <div class="row section-jewelry" id="events">
+        <div class="col-sm-2 text-center">
+            <img src="./img/sun.png" class="jewelry">
+        </div>
+        <div class="col-sm-2 text-center">
+            <img src="./img/leaf.png" class="jewelry">
+        </div>
+        <div class="col-sm-2 text-center">
+            <img src="./img/butterfly.png" class="jewelry">
+        </div>
+        <div class="col-sm-2 text-center">
+            <img src="./img/cross.png" class="jewelry">
+        </div>
+        <div class="col-sm-2 text-center">
+            <img src="./img/david.png" class="jewelry">
+        </div>
+        <div class="col-sm-2 text-center">
+            <img src="./img/elephant.png" class="jewelry">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row section">
             <div class="col-sm-12">
-                <h2>Upcoming Events</h2>
-                <div class="text-center"><iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=gratefulheartsjewelry%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FNew_York" style=" border-width:0 " width="1000" height="800" frameborder="0" scrolling="no"></iframe></div>
+                <h1>Upcoming Events</h2>
+                <div class="text-center">
+                    <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=gratefulheartsjewelry%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FNew_York" style=" border-width:0 " width="1000" height="800" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                    <div class="nudge-down-20px">
+                        <span class="fa fa-circle green"></span>
+                        <span>Open to Public</span> &nbsp; &nbsp;
+                        <span class="fa fa-circle red"></span>
+                        <span>Employees Only</span>
+                    </div>
+                    <div class="nudge-down-50px">Note: This does not reflect all events. Please call 248.496.8369 for scheduling.</div>
             </div>
         </div>
-        <hr>
-        
-        
-        <div id="contact" class="row section">
-            <h2>Contact Us</h2>
+    </div> 
+    <div class="row section-black">
+        <div class="col-sm-12">
+            <div class="container">
+                “We were vary pleased to have another fundraiser with Grateful Hearts Jewelry. We appreciate the fact that you totally 
+                run the sale without our assistance and abide by the Genesys fundraising policies and procedures.”
+            </div>
+        </div>
+        <div class="col-sm-4 col-sm-offset-6">
+            <div class="signature" id="contact">
+                    - Karen Badgley</br>
+                    &nbsp;&nbsp;Acorn Gift and Floral Shop Manager</br>
+                    &nbsp;&nbsp;Genesys Regional Medical Center
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row section">
+            <div class="col-sm-10 col-sm-offset-1">
+                <h1>How Can We Help?</h1>
+                <div class="content">
+                    <div>What are your fundraising goals? Contact us today to see how we can help.</div>
+                    <div class="phone-number">248.496.8369</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row section-black">
+        <div class="col-sm-10 col-sm-offset-1">
+            <h1>Contact Us</h2>
             <div class="col-sm-2 col-sm-offset-3 text-center">
                 <img src="./img/mom.png"  class="photo">
             </div>
@@ -173,18 +285,10 @@
                 </div>
             </div>
         </div>
-        <hr>
-        <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-                <div class="cta">
-                    Book your next Grateful Hearts event today!<br>
-                    <span class="font-24">248.496.8369</span>
-                </div>
-            </div>
-        </div>
     </div>
+</div>
 </body>
 <footer>
-    &copy Grateful Hearts Jewelry 2015 
+    &copy; Grateful Hearts Jewelry 2015 
 </footer>
 </html> 

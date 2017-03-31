@@ -7,10 +7,19 @@
     src: url('../Optima.ttf'); 
 } 
 
+@font-face { font-family: Joe; 
+    src: url('../JosefinSlab-Light.ttf'); 
+} 
+
 @media (min-width: 1200px){
     .container {
     width: 990px;
     }   
+}
+
+a{
+    color: silver;
+    font-size: 18px;
 }
 
 
@@ -31,6 +40,12 @@ hr{
     border-color: #BFBFBF;
 }
 
+h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
 h4{
     font-weight: 700;
 }
@@ -39,17 +54,47 @@ h4{
     color: black;
  }
 
+ .red{
+     color: red;
+ }
+
+ .green{
+     color: #1B887A;
+ }
+
 .content{
     font-size: 18px;
     text-align: justify;
 }
 
-.font-24{
-    font-size: 24px;
+.phone-number {
+    font-size: 36px;
+    margin-top: 10px;
+    /*color: #7c23a7;*/
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    padding: 300px;
+    min-height: 1px;
+    text-align: center;
+    background-image: url("../img/top.png");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    border-bottom: 2px solid #545454;
 }
 
 .no-border{
     border: none;
+}
+
+.navbar{
+    background-color: black;
+    padding: 30px 50px;
 }
 
 .nudge-down-20px{
@@ -65,14 +110,38 @@ h4{
     margin-top: 50px;
 }
 
+.logo{
+    height: 60px;
+    margin: -20px;
+}
+
 .photo{
     max-width: 100%;
 }
 
 .section{
-    padding: 50px 0 50px 0;
-
+    padding: 100px 0;
 }
+
+.section-black{
+    padding: 60px 100px;
+    color: white;
+    background-color: black;
+    font-family: Joe, serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.section-jewelry{
+    padding: 25px 0;
+    background-color: black;
+}
+
+.signature{
+    font-size: 16px;
+    margin-top: 40px;
+}
+
 
 .cta{
     background-color: #CF378F;
@@ -83,6 +152,10 @@ h4{
     box-shadow: gray 0 3px 4px;
     font-size: 20px;
     margin: 50px 0;
+}
+
+.jewelry{
+    max-width: 120px;
 }
 
 #jewelry-photo{
@@ -97,6 +170,11 @@ h4{
     margin-top: 30px;
 }
 
+
+.navbar-nav>li>a{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
 
