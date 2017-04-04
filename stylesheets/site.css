@@ -4,18 +4,13 @@
 
 
 @font-face { font-family: Optima; 
-    src: url('../Optima.ttf'); 
+    src: url('../OPTIMA.TTF'); 
 } 
 
 @font-face { font-family: Joe; 
     src: url('../JosefinSlab-Light.ttf'); 
 } 
 
-@media (min-width: 1200px){
-    .container {
-    width: 990px;
-    }   
-}
 
 a{
     color: silver;
@@ -49,6 +44,10 @@ h1{
 h4{
     font-weight: 700;
 }
+
+iframe{
+    max-width: 100%;
+}
  
  .black{
     color: black;
@@ -63,20 +62,19 @@ h4{
  }
 
 .content{
-    font-size: 18px;
+    font-size: 1.3em;
     text-align: justify;
 }
 
 .phone-number {
     font-size: 36px;
     margin-top: 10px;
-    /*color: #7c23a7;*/
 }
 
 .header {
     position: relative;
     width: 100%;
-    padding: 300px;
+    padding: 300px 0;
     min-height: 1px;
     text-align: center;
     background-image: url("../img/top.png");
@@ -86,6 +84,14 @@ h4{
     background-size: cover;
     -o-background-size: cover;
     border-bottom: 2px solid #545454;
+}
+
+.logo-words-container{
+    margin: 0 auto;
+}
+
+.logo-words-container img{
+    max-width: 90%;
 }
 
 .no-border{
@@ -124,12 +130,18 @@ h4{
 }
 
 .section-black{
-    padding: 60px 100px;
+    padding: 60px 10px;
     color: white;
     background-color: black;
     font-family: Joe, serif;
     font-size: 24px;
     letter-spacing: 2px;
+}
+
+@media (min-width: 1200px){
+    .section-black{
+        padding: 60px 100px;
+    } 
 }
 
 .section-jewelry{
@@ -176,6 +188,9 @@ h4{
     padding-bottom: 20px;
 }
 
+.hospitals img{
+    max-width: 100%;
+}
 
 
 
