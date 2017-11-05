@@ -54,11 +54,11 @@ iframe{
  }
 
  .red{
-     color: red;
+     color: #AD2D2D;
  }
 
  .green{
-     color: #1B887A;
+     color: #59BFB3;
  }
 
 .content{
@@ -88,10 +88,6 @@ iframe{
 
 .logo-words-container{
     margin: 0 auto;
-}
-
-.logo-words-container img{
-    max-width: 90%;
 }
 
 .no-border{
@@ -167,7 +163,7 @@ iframe{
 }
 
 .jewelry{
-    max-width: 120px;
+    max-width: 100%;
 }
 
 #jewelry-photo{
@@ -190,6 +186,49 @@ iframe{
 
 .hospitals img{
     max-width: 100%;
+}
+
+.margin-top-neg-10 {
+    margin-top: -10px;
+}
+
+@media (min-width: 768px){
+    .logo-words-container img{
+        max-width: 40%;
+    }
+}
+@media (max-width: 768px){
+    .logo-words-container img {
+        width: 90%;
+    }
+
+    .navbar-fixed-top {
+        display: none;
+    }
+
+    .header {
+        padding: 50px;
+    }
+
+    .section {
+        padding: 20px 0;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .section-black {
+        font-size: 12px;
+    }
+
+    .margin-top-neg-10 {
+        margin-top: 30px;
+    }
+
+    .phone-number {
+        font-size: 25px;
+    }
 }
 
 
